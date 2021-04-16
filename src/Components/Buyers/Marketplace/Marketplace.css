@@ -1,0 +1,12 @@
+.marketplace {
+  width: 80%;
+  margin: 30px 0;
+}
+.marketplace-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+.marketplace > h2 {
+  font-size: 30px;
+  font-weight: 700;
+}

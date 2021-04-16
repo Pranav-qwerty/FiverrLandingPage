@@ -1,0 +1,15 @@
+.WhyFiverrText > p {
+  color: #62646a;
+}
+.WhyFiverrText > h6 {
+  font-size: 19px;
+}
+.WhyFiverrText > h6 > span > svg {
+  color: #62646a;
+}
+.WhyFiverrText > h6 > span {
+  margin-right: 10px;
+}
+.WhyFiverrText {
+  margin: 25px 0;
+}

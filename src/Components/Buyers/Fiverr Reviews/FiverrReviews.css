@@ -1,0 +1,29 @@
+.FiverrReviews {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  background-color: #d6d6d6;
+  margin: 50px 0;
+  padding: 20px;
+}
+.FiverrReviews-text-name {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+blockquote {
+  color: darkgreen;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+.FiverrReviews-text-who {
+  font-size: 25px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border-right: 2px solid gray;
+  color: #383838;
+}
+.FiverrReviews-text-lavender {
+  padding: 10px 20px;
+}

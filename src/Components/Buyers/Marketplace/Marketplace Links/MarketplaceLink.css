@@ -1,0 +1,31 @@
+.LinkIcon > img {
+  width: 70px;
+  height: 70px;
+}
+.HoverLoader {
+  width: 60px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: lightgray;
+  transition-property: background, width;
+  transition-duration: 0.5s;
+}
+.MarketplaceLink {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+}
+.LinkIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MarketplaceLink:hover .HoverLoader {
+  width: 100px;
+  background-color: #1dbf73;
+}
+@keyframes HoverloaderAnim {
+}

@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  background-color: #044018;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-items > p {
+  color: #fff;
+  font-weight: 700;
+  margin: 0 40px;
+}
+#join {
+  border: 1px solid white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  transition-property: background;
+  transition-duration: 0.5s;
+}
+#join:hover {
+  background-color: #1dbf73;
+  cursor: pointer;
+}
+@media screen and (max-width: 1458px) {
+  .nav-items > p {
+    margin: 0;
+  }
+  .nav-items {
+    width: 70%;
+  }
+}

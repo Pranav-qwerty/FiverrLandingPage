@@ -1,0 +1,17 @@
+.Item {
+  width: 220px;
+  height: 300px;
+  border-radius: 7px;
+  display: flex;
+}
+.item-text {
+  color: white;
+  margin: 15px;
+}
+.item-text1 {
+  font-size: 15px;
+}
+.item-text2 {
+  font-size: 20px;
+  font-weight: 900;
+}
